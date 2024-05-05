@@ -1,0 +1,706 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    height: 100vh;
+    overflow: auto;
+    background-image:url(images/slider-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+
+}
+.container .nav
+{
+    width: 70%;
+    margin: auto;
+}
+ul.list
+{   width: 50%;
+    float: right;
+    text-align: center;
+    list-style-type:none ;
+}
+ul.list li
+{   float: left;
+    list-style-type: none;
+    padding: 20px 0;
+    padding-right: 10px;
+}
+ul.list li a 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    transition: all 1s;
+}
+.list .active
+{
+    color: #FF305B;
+}
+.list li a:hover
+{
+    color:#FF305B ;
+}
+.logo {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+}
+.logo a{
+    color: #FF305B;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 18px 0px;
+
+}
+.clear-fix
+{
+    clear: both;
+}
+.text h3{
+    color: #F8F4F8;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.text h1{
+    color: #FF305B;
+    font-size: 70;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.text h2{
+    color: #e2ebeb;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+div.text{
+    width: 90%;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.text h2::after
+{
+    content: "";
+    margin-left: 10px;
+    animation: typing 3s ease-out infinite;
+}
+@keyframes typing{
+    0%{
+        content:"|"
+    }
+    3%{
+        content:"D |"
+    }
+    6%{
+        content:"De |"
+    }
+    9%{
+        content:"Des |"
+    }
+    12%{
+        content:"Desi |"
+    }
+    15%{
+        content:"Desig |"
+    }
+    18%{
+        content:"Design |"
+    }
+    21%{
+        content:"Designe |"
+    }
+    24%{
+        content:"Designer |"
+    }
+    25%{
+        content:"Designer |"
+    }
+    26%{
+        content:"Designer |"
+    }
+    27%{
+        content:"Designer |"
+    }
+    28%{
+        content:"Designe |"
+    }
+    30%{
+        content:"Design |"
+    }
+    33%{
+        content:"Desig |"
+    }
+    36%{
+        content:"Desi |"
+    }
+    39%{
+        content:"Des |"
+    }
+    42%{
+        content:"De |"
+    }
+    45%{
+        content:"D |"
+    }
+    48%{
+        content:"|"
+    }
+    51%{
+        content:"D |"
+    }
+    54%{
+        content:"De |"
+    }
+    57%{
+        content:"Dev |"
+    }
+    60%{
+        content:"Deve |"
+    }
+    63%{
+        content:"Devel |"
+    }
+    66%{
+        content:"Deevelo |"
+    }
+    69%{
+        content:"Develop |"
+    }
+    72%{
+        content:"Develope |"
+    }
+    75%{
+        content:"Developer |"
+    }
+    78%{
+        content:"Develope |"
+    }
+    81%{
+        content:"Develop |"
+    }
+    84%{
+        content:"Develo |"
+    }
+    87%{
+        content:"Devel |"
+    }
+    90%{
+        content:"Deve |"
+    }
+    93%{
+        content:"Dev |"
+    }
+    96%{
+        content:"De |"
+    } 
+    98%{
+        content:"D |"
+    }
+    100%{
+        content:" |"
+    }
+}
+/* end home */
+/* start about */
+.about-container
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    box-sizing: border-box;
+}
+.glass{
+    text-align: center;
+    vertical-align: middle;
+}
+.glass div i:hover{
+    color: #FF305B;
+    
+}
+.about-container .img 
+{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    position: relative;
+}
+
+.about-container .img img{
+    width: 100%;
+    border-radius: 14px;
+}
+.img::after{
+    content: "";
+    position: absolute;
+    top: -35px;
+    left: -63px;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #555555;
+    z-index: -1;
+    border-radius: 5px;
+}
+.content{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+.content h2{
+    font-weight: 400;
+    line-height: 25px;
+}
+h2 span
+{
+    color: #ff305b ;
+    width: 8px;
+    font-size: 25px;
+    margin-right: 3px;
+}
+.content p
+{
+    line-height: 20px;
+    margin:25px 0;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #999999;
+} 
+.about-container .content{
+    float: right;
+}
+.parent-text .item
+{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+.light
+{
+    color: #555A7B;
+}
+.buttons
+{
+    margin: 30px 0;
+}
+.button
+{
+    padding: 10px 24px;
+    margin:0 10px 0 24px ;
+    background-color: #EC2403;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.button:hover{
+    background-color: red;
+}
+.About img{
+position: relative;
+}
+.About .glass{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(104,104,104,0.5);
+    transform-origin:top center ;
+    height: 0;
+    transition: all 1s;
+}
+.About .img:hover .glass{
+    height: 100%;
+    cursor: pointer;
+}
+.glass>div{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.glass>div i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+    margin-left: 10px;
+    padding-left: 15px;
+    
+}
+.glass>div i:hover
+{
+    color: #FF305B;
+}
+.About
+{
+    margin-bottom: 200px;
+}
+
+/* endAboutpage */
+/* start services page */
+.services
+{
+    background-color: #F1F1F1;
+    padding: 70px 24px;
+}
+.common{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.commont
+{
+    text-align: center;
+}
+.common h2{
+    font-size: 44px;
+}
+.lines div
+{
+    height: 3px;
+    margin: auto;
+    background-color: red;
+}
+.lines .first
+{
+    width: 100px;
+}
+.lines .second
+{
+    width: 200px;
+    margin-top: 5px;
+}
+.lines .third
+{
+    width: 100px;
+    margin-top: 5px;
+}
+.services .slide{
+    text-align: center;
+}
+.services .slide i{
+    font-size: 30px;
+    color: #FF305B;
+    margin:15px 0;
+    transition: all 0.3s;
+}
+.services .slide h2{
+    font-size: 24px;
+    color:#333333;
+}
+.services .slide p{
+    margin-top: 20px;
+    line-height: 25px;
+    color: #555555;
+}
+.slide{
+    float: left;
+    width:23%;
+    margin-left: 15px;
+    padding: 40px 15px;
+    transition: all 0.3s;
+}
+.slide:hover
+{
+    background-color: #ee1843;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.slide:hover i{
+    font-size: 34px;
+}
+/* End services */
+/* star portofolio */
+.portofolio .common
+{
+    padding: 100px 70px 40px;
+}
+.img-container .imgs
+{
+    float: left;
+    width: 26%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    position: relative;
+}
+.img-container .imgs img{
+    width: 100%;
+}
+.imgs .glass
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.imgs:hover .glass
+{
+    background-color: #555555b7;
+}
+.imgs .glass i {
+    display: inline-block;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    padding: 10px;
+    font-size: 30px;
+    opacity: 0;
+    transition: all 1s;
+    color: #FF305B;display: inline-block;
+}
+.imgs:hover i{
+    background-color: #FF305Bb7;
+    opacity: 1;
+}
+.portofolio .img-container
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.common li:hover{
+    color: #FF305B;
+}
+.commont li{
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 3px 14px;
+}
+
+ul.commont li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 1s;
+}
+.commont li a:hover
+{
+    color:#FF305B ;
+}
+.commont .active
+{
+    color: #FF305B;
+}
+/* End portofolio  */
+/* Start counter */
+.counter{
+    background-color:#F1F1F1 ;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+.counter .count{
+    float: left;
+    width: 20%;
+    margin-left:5%;
+    text-align: center;
+    cursor: pointer;
+}
+.counter .count h3 
+{
+    font-size: 26px;
+    font-weight: 700;
+}
+.counter .count p {
+    color: #555578;
+    font-weight: 400;
+}
+
+.counter .count i{
+    font-size: 26px;
+    color: #FF305B;
+    margin-bottom: 10px;
+}
+/* End conter  */
+/* Start feedback */
+.feedback{
+    margin-bottom: 100px;
+}
+.box{
+    width: 80%;
+    margin: auto;
+    background-color: #F1F1F1;
+    padding: 40px;
+    position: relative;
+    border-radius: 6px;
+}
+.feedback .img-box {
+    float: left;
+    width: 20%;
+}
+.feedback .text-box{
+    width: 60%;
+    float: left;
+}
+.feedback .img-box img{
+    position: relative;
+    border-radius: 50%;
+    z-index: 100;
+    width: 90%;
+}
+.traingle{
+    width: 100%;
+    height: 100%;
+    background-color: #ee1843;
+    clip-path: polygon(23% 0,0 65%,0 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.text-box .icon-box {
+    margin-bottom: 10px;
+    color: #777777;
+    font-size: 15px;
+}
+.text-box p{
+    margin-bottom: 10px;
+    color: #555555;
+    line-height: 1.5;
+    font-style: italic;
+}
+.text-box .icons-box
+{
+    color: #F1C30D;
+    font-size: 30px;
+}
+.cycle{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.cycle span:first-child{
+    width: 30%;
+    height: 10%;
+    background-color: #FF305B;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+}
+.cycle span:last-child{
+    width: 10%;
+    height: 10%;
+    border: 1px solid #FF305B;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+}
+/* End feedback */
+/* star blog */
+.blog{
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+.blog .blog-container{
+    margin-bottom: 30px;
+}
+.item-blog{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.item-blog img{
+    width: 100%;
+}
+.item-blog iframe{
+    width: 100%;
+}
+.item-blog p{
+    margin: 15px;
+    color: #555555;
+}
+.item-blog h2 {
+    font-size: 20px;
+    color: #333333;
+    margin: 15px;
+}
+.item-blog .blog-icon {
+    margin: 15px;
+    transition: all 0.4s;
+}
+.item-blog .blog-icon:hover{
+    color: #FF305B;
+}
+/* End blog */
+/* Start Contact us */
+.Contact-us
+{
+    margin:100px 0 ;
+    text-align: center;
+}
+.cont-container{
+    width: 90%;
+    margin: auto;
+}
+input[type="text"],input[type="email"]
+{
+    width: 40%;
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+input.subject,textarea
+{
+    width: 80%;
+    margin: 20 10 0 0;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+form div {
+    background-color: #ee1843;
+    width: 150px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 4%;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+form div a{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    cursor: no-drop;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* End Contact-us  */
+/* start last sectioon  */
+.ls{
+    background-color: #333333;
+    text-align: center;
+    padding: 50px 0;
+}
+.ls i{
+    font-size: 25px;
+    color: #e2ebeb;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.ls p 
+{
+    color: #e2ebeb;
+}
+.ls p span
+{
+    color: #FF305B;
+    cursor: pointer;
+}
+.ls i:hover {
+    color: #FF305B;
+}
